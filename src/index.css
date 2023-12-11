@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbf6ee;
+}
+.thumb {
+  background: #c1f2b0;
+  width: 66%;
+  height: 60%;
+  border-radius: 40px;
+  font-size: 1.5rem;
+  filter: drop-shadow(10px 10px 4px #040d12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.thumb-quote {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: center;
+}
+.quote-block,
+.author-block {
+  padding: 1rem;
+  color: #7e30e1;
+}
+.quote-block {
+  font-family: "DM Mono", monospace;
+  margin-left: 2rem;
+}
+.quote-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-button button {
+  width: 10rem;
+  height: 4rem;
+  border-radius: 1rem;
+  background-color: #ffb534;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  /* color: #7e30e1;
+   */
+  color: #fbf6ee;
+}
+.quote-button button:hover {
+  /* color: #7e30e1; */
+  background-color: #092635;
+}
+.author-block {
+  text-align: right;
+  color: #f900ef;
+  margin-right: 3rem;
+}
+.heading {
+  font-size: 2rem;
+  font-family: "DM Mono", monospace;
+  margin: 1.5rem;
+}
